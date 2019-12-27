@@ -1,7 +1,11 @@
 /*
-Modified by Pratik Nilange on 27 December 2019 based on a sample code by Circuit Digest
+The code is modified by Pratik Nilange on 27 December 2019, and is based on a sample code by Circuit Digest
 This example code is in the public domain
+This is a sample code with which you can create a local web server
+using an ESP8266 and host a simple web application(like controlling the output pins of of NODEMCU or something).
+In this code, we are controlling the on-board LED (Note: It is inverted in Nature)
 */
+
 #include <ESP8266WiFi.h>
 const char* ssid = "ANiceWiFiName";  // Enter SSID here
 const char* password = "ANicePassword";  //Enter Password here
